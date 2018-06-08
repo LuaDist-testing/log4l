@@ -1,10 +1,18 @@
-#!/usr/bin/env lua
+-- This file was automatically generated for the LuaDist project.
+
 
 package = "log4l"
-version = "scm-0"
-source  = {
-    url = "git://github.com/mwchase/log4l.git",
+version = "0.2-2"
+-- LuaDist source
+source = {
+  tag = "0.2-2",
+  url = "git://github.com/LuaDist-testing/log4l.git"
 }
+-- Original source
+-- source  = {
+--     url = "git://github.com/mwchase/log4l.git",
+--     branch = "log4l-v0.2",
+-- }
 description = {
     summary = "A simple API to use logging features",
     detailed    = [[
